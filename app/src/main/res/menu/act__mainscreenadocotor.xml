@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never"
+        android:onClick="Go_setting"
+        android:icon="@drawable/ic_menu_manage"
+
+        />
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_my_location"
+        android:title="@string/menu_home"
+        android:onClick="Go_home"
+        app:showAsAction="always"
+        />
+
+
+     <item
+        android:id="@+id/nav_pationstat"
+        android:icon="@drawable/ic_qustion"
+        android:title="@string/menu_pationstat"
+        android:onClick="Go_pationstat"
+
+        />
+
+
+
+</menu>

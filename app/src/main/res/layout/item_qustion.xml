@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="20dp"
+    android:layout_margin="15dp"
+    android:background="@drawable/backgrounditem"
+    app:cardUseCompatPadding="false"
+    app:cardElevation="5dp"
+    android:elevation="500dp"
+    app:cardCornerRadius="15dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/backgrounditem"
+        android:padding="10dp"
+        >
+
+
+        <ImageView
+            android:id="@+id/qimg"
+            android:layout_width="92dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/icon1"
+
+            />
+
+
+
+
+
+        <TextView
+            android:id="@+id/qstiontxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  هل كنت متصل بمريض ثبت عليه مرض الكورونا خلال الاسبوعين الماضيين ؟"
+            android:textSize="25dp"
+            android:textColor="@color/colorEtxt"
+            android:gravity="center"
+            android:layout_gravity="center"
+
+
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layoutDirection="rtl"
+            >
+
+            <TextView
+                android:id="@+id/addbtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="+"
+                android:textSize="35dp"
+                android:textColor="@color/colorEtxt"
+
+                android:gravity="left"
+                />
+
+            <TextView
+                android:id="@+id/anstxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="نعم"
+
+                android:textSize="35dp"
+                android:textColor="@color/colorEtxt"
+
+                android:gravity="center"
+
+                />
+
+            <TextView
+                android:id="@+id/decbtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="-"
+
+                android:textSize="35dp"
+                android:textColor="@color/colorEtxt"
+
+                android:gravity="right"
+
+                />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

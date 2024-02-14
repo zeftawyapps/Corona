@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto">
+<item
+    android:id="@+id/action_settings"
+    android:orderInCategory="100"
+    android:title="@string/action_settings"
+    app:showAsAction="never"
+    android:onClick="Go_setting"
+    android:icon="@drawable/ic_menu_manage"
+
+    />
+
+ <item
+    android:id="@+id/nav_Quistoin"
+    android:icon="@drawable/ic_qustion"
+    android:title="@string/menu_qustion"
+    android:onClick="Go_Q"
+
+    />
+<item
+    android:id="@+id/nav_slideshow"
+    android:icon="@drawable/ic_corona"
+    android:title="@string/menu_website"
+    android:onClick="Go_data"
+
+    />
+
+    <item
+        android:id="@+id/nav_stat"
+        android:icon="@drawable/ic_corona"
+        android:title="@string/menu_websitestat"
+        android:onClick="Go_sdata"
+
+        />
+
+    <item
+    android:id="@+id/nav_tools"
+    android:icon="@drawable/ic_security"
+    android:title="@string/menu_privacy"
+    android:onClick="Go_priv"
+
+    />
+
+
+
+
+
+</menu>

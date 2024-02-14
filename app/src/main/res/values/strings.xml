@@ -1,0 +1,47 @@
+<resources>
+    <array name="qustions">
+        <item>هل كنت خارج ولايتك خلال الاسبوعين الماضية ؟</item>
+        <item>هل كنت متصل بمريض ثبت عليه مرض الكورونا خلال الاسبوعين الماضيين ؟</item>
+        <item>هل لك ارتفاع درجة الحرارة ؟</item>
+        <item>هل لديك سعال وكحة؟</item>
+        <item>هل لديك ضيق في التنفس ؟</item>
+        <item>هل لديك اسهال ؟</item>
+    </array>
+    <array name="ansers">
+        <item>لا</item>
+        <item>نعم</item>
+
+    </array>
+
+    <string name="app_name">Siha map </string>
+
+
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_act__mainscreen">Act_Mainscreen</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">الملف الشخصي</string>
+
+    <string name="menu_home">الرئيسيه</string>
+    <string name="menu_qustion">فحص</string>
+    <string name="menu_jobstat">تعيين الصلاحيات</string>
+    <string name="menu_pationstat">حالات المرضى</string>
+
+    <string name="menu_website">معلومات عن المرض</string>
+    <string name="menu_websitestat">احصائيات</string>
+
+    <string name="menu_privacy">سياسة الخصوصيه</string>
+    <string name="menu_connction">تواصل معنا</string>
+    <string name="menu_share">مشاركة التطبيق</string>
+    <string name="menu_rate"> قيمنا </string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_send">Send</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+
+</resources>

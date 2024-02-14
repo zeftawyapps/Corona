@@ -1,0 +1,111 @@
+<resources>
+
+    <!-- Base application theme. -->
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="buttonStyle">@style/button</item>
+
+        <item name="android:textViewStyle">@style/textview</item>
+        <item name="editTextStyle">@style/etextview</item>
+
+    </style>
+
+    <style name="AppTheme_main" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="buttonStyle">@style/button</item>
+
+        <item name="android:textViewStyle">@style/textview</item>
+        <item name="editTextStyle">@style/etextview</item>
+
+        <item name="actionBarStyle">@style/AppTheme.ActionBar</item>
+
+    </style>
+
+    <style name="AppThemenoaction" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="buttonStyle">@style/button</item>
+
+        <item name="android:textViewStyle">@style/textview</item>
+        <item name="editTextStyle">@style/etextview</item>
+
+    </style>
+
+
+    <style name="AppThemenoactoncatDailgoe" parent="Theme.AppCompat.Light.Dialog">
+        <!-- Customize your theme here. -->
+        <item name="windowActionBar">true</item>
+        <item name="windowNoTitle">true</item>
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="buttonStyle">@style/button</item>
+        <item name="android:textViewStyle">@style/textview</item>
+        <item name="editTextStyle">@style/etextview</item>
+
+
+    </style>
+
+    <style name="button" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/botton</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:textSize">25dp</item>
+        <item name="android:padding">10dp</item>
+
+    </style>
+
+    <style name="textview" parent="Widget.AppCompat.TextView">
+        <item name="android:textColor">#000</item>
+        <item name="android:textSize">25dp</item>
+
+    </style>
+
+    <style name="etextview" parent="Widget.AppCompat.EditText">
+        <item name="android:textColor">#000</item>
+        <item name="android:textSize">25dp</item>
+
+    </style>
+
+    <style name="textviewtitle" parent="android:Widget.TextView">
+        <item name="android:textColor">#fff</item>
+        <item name="android:textSize">25dp</item>
+    </style>
+
+    <style name="textviewtitlez_apps" parent="android:Widget.TextView">
+        <item name="android:textColor">#D2FF00</item>
+        <item name="android:textSize">30dp</item>
+    </style>
+
+    <style name="AppThemenoaction.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppThemenoaction.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppThemenoaction.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+    <style name="AppTheme.ActionBar" parent="Widget.AppCompat.Light.ActionBar">
+        <item name="android:titleTextStyle">@style/AppTheme.ActionBar.TitleText</item>
+        <item name="titleTextStyle">@style/AppTheme.ActionBar.TitleText</item>
+        <item name="android:height">@dimen/bar_height</item>
+        <item name="height">@dimen/bar_height</item>
+    </style>
+
+    <style name="AppTheme.ActionBar.TitleText" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textSize">@dimen/bar_text_size</item>
+        <item name="android:textColor">@color/bar_text_color</item>
+    </style>
+</resources>
+

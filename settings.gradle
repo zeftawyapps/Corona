@@ -1,0 +1,2 @@
+include ':app', ':zeftawy_toolslib'
+rootProject.name='Corona'

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Project.Activity.Act_userjob">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="اعطاء صلاحيات للمستخدمين"
+            android:textColor="@color/colorba"
+            android:textSize="30dp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layoutDirection="rtl"
+            >
+
+            <EditText
+                android:id="@+id/searchEtxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="phone"
+                android:text=""
+                android:textSize="40dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:padding="10dp"
+                android:hint="بحث بالهاتف"
+                android:layout_weight="1"
+                />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:onClick="Go_Search"
+                app:srcCompat="@drawable/ic_search_black_24dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/border"
+android:padding="20dp"
+            >
+
+            <EditText
+                android:id="@+id/etxtname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="phone"
+                 android:text=""
+                 android:textSize="40dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:padding="10dp"
+                 />
+            <EditText
+                android:id="@+id/etxtphone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="phone"
+                 android:text=""
+                 android:textSize="40dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:padding="10dp"
+
+                />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/borderunderline"
+                    android:text="باستور"
+                    android:textSize="10dp"
+                    android:onClick="Go_doctorreqbast"
+
+                    android:textColor="@color/colorba" />
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/borderunderline"
+                    android:text="طبيب"
+                    android:textSize="15dp"
+
+                    android:onClick="Go_doctpation"
+
+                    android:textColor="@color/colorba" />
+
+                <Button
+                     android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/borderunderline"
+                    android:text="مريض"
+                    android:textSize="15dp"
+
+                    android:onClick="Go_pation"
+
+                    android:textColor="@color/colorba" />
+
+                <Button
+                    android:id="@+id/button4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="مدير"
+                    android:textSize="15dp"
+
+                    android:onClick="Go_admin"
+
+                    />
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/backgroundblock"
+                    android:onClick="Go_blcck"
+                    android:textSize="15dp"
+
+                    android:text="حظر" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/rec"
+            />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_Quistoin"
+            android:icon="@drawable/ic_qustion"
+            android:title="@string/menu_qustion"
+android:onClick="Go_Q"
+
+            />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_corona"
+            android:title="@string/menu_website" />
+        <item
+            android:id="@+id/nav_tools"
+            android:icon="@drawable/ic_security"
+            android:title="@string/menu_privacy" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/menu_connction" />
+
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/menu_share" />
+
+            <item
+                android:id="@+id/nav_rate"
+                android:icon="@drawable/ic_star"
+                android:title="@string/menu_rate" />
+
+        </menu>
+    </item>
+
+</menu>

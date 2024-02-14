@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "906558016934",
+    "firebase_url": "https://helthey-989e1.firebaseio.com",
+    "project_id": "helthey-989e1",
+    "storage_bucket": "helthey-989e1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:906558016934:android:6eccd6a2abc6a4868c9367",
+        "android_client_info": {
+          "package_name": "com.z_apps.Helteycare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "906558016934-dbesl7lk311lgmkdr1mgpjb468635221.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbWpFSttJt9FqbxtIlwSS_TjAWeZQ6V80"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "906558016934-dbesl7lk311lgmkdr1mgpjb468635221.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#23AD7B</color>
+    <color name="colorPrimaryDark">#0B2C20</color>
+    <color name="colorAccent">#59BB0A</color>
+    <color name="colorapp">#10410F</color>
+    <color name="colorEtxt">#010901</color>
+    <color name="colorborder">#10410F</color>
+    <color name="colorbackground">#10410F</color>
+    <color name="colorba">#10410F</color>
+    <color name="colorbablock">#410F0F</color>
+    <color name="bar_text_color">#fff</color>
+    <color name="colorbackgroundItem">#C2F0D8</color>
+    <color name="colorbtntxt">#fff</color>
+
+</resources>
